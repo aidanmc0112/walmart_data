@@ -44,16 +44,3 @@ The dataset covers:
 - **Observations:** 6,435
 - **Missing values:** None
 
-## Project Structure
-
-```text
-walmart-sales/
-│
-├── data/
-│   └── Walmart_Sales.csv
-│
-├── notebooks/
-│   └── walmart_sales_analysis.ipynb
-│
-├── dependencies.txt
-└── README.md
