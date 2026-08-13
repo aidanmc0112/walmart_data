@@ -131,10 +131,10 @@ Christmas.
 
 Examples include:
 
-Store 14 - 2010-12-24 - $3,818,686
-Store 20 - 2010-12-24 - $3,766,687
-Store 10 - 2010-12-24 - $3,749,058
-Store 4  - 2011-12-23 - $3,676,389
+Store 14 - 2010-12-24 - $3,818,686 \\
+Store 20 - 2010-12-24 - $3,766,687 \\
+Store 10 - 2010-12-24 - $3,749,058 \\
+Store 4  - 2011-12-23 - $3,676,389 \\
 Store 13 - 2010-12-24 - $3,595,903
 
 This was an important finding because many of these observations had:
