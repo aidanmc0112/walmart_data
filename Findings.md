@@ -110,10 +110,10 @@ in the dataset.
 Average weekly sales were compared between holiday and non-holiday weeks.
 
 Non-Holiday Average Sales:
-approximately $1.041 million
+    approximately $1.041 million
 
 Holiday Average Sales:
-approximately $1.123 million
+    approximately $1.123 million
 
 Holiday weeks therefore had higher average sales than non-holiday weeks.
 
@@ -131,19 +131,19 @@ Christmas.
 
 Examples include:
 
-Store 14 - 2010-12-24 - $3,818,686 
+    Store 14 - 2010-12-24 - $3,818,686 
 
-Store 20 - 2010-12-24 - $3,766,687 
+    Store 20 - 2010-12-24 - $3,766,687 
 
-Store 10 - 2010-12-24 - $3,749,058 
+    Store 10 - 2010-12-24 - $3,749,058 
 
-Store 4  - 2011-12-23 - $3,676,389 
+    Store 4  - 2011-12-23 - $3,676,389 
 
-Store 13 - 2010-12-24 - $3,595,903
+    Store 13 - 2010-12-24 - $3,595,903
 
 This was an important finding because many of these observations had:
 
-Holiday_Flag = 0
+    Holiday_Flag = 0
 
 Therefore, a week can experience extremely high sales even when it is not
 classified as a holiday week.
