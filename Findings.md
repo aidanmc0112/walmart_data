@@ -12,7 +12,7 @@ economic conditions, environmental factors, and the predictive performance of
 Linear Regression and Random Forest models.
 
 
-1. DATASET OVERVIEW
+#1. DATASET OVERVIEW
 -------------------
 
 The dataset contains weekly sales information for 45 Walmart stores.
@@ -35,7 +35,7 @@ Unemployment   - Regional unemployment rate
 There were no missing values in the dataset.
 
 
-2. DATE PROCESSING
+#2. DATE PROCESSING
 ------------------
 
 The original Date column was stored as a string in the format:
@@ -60,7 +60,7 @@ These features were created to capture seasonal and temporal patterns in
 weekly sales.
 
 
-3. WEEKLY SALES DISTRIBUTION
+#3. WEEKLY SALES DISTRIBUTION
 ----------------------------
 
 Weekly sales have substantial variation across the dataset.
@@ -75,7 +75,7 @@ The large difference between minimum and maximum weekly sales suggests that
 there are substantial differences in sales between stores and across time.
 
 
-4. STORE-LEVEL ANALYSIS
+#4. STORE-LEVEL ANALYSIS
 -----------------------
 
 Store was found to be the strongest predictor of Weekly_Sales.
@@ -104,7 +104,7 @@ base, local demand, and demographics. However, these factors are not included
 in the dataset.
 
 
-5. HOLIDAY ANALYSIS
+#5. HOLIDAY ANALYSIS
 -------------------
 
 Average weekly sales were compared between holiday and non-holiday weeks.
@@ -121,7 +121,7 @@ However, the Holiday_Flag variable does not fully capture increased sales
 before holidays.
 
 
-6. OUTLIER ANALYSIS
+#6. OUTLIER ANALYSIS
 -------------------
 
 An outlier analysis identified 25 observations as outliers.
@@ -148,7 +148,7 @@ This suggested that sales may increase during the period immediately before
 a holiday.
 
 
-7. CORRELATION ANALYSIS
+#7. CORRELATION ANALYSIS
 -----------------------
 
 The correlations between Weekly_Sales and several continuous variables were:
@@ -168,7 +168,7 @@ predictive value. Random Forest can identify nonlinear relationships and
 interactions that simple correlation does not capture.
 
 
-8. LINEAR REGRESSION
+#8. LINEAR REGRESSION
 --------------------
 
 Linear Regression was used as a baseline model.
@@ -195,7 +195,7 @@ available predictors and Weekly_Sales is not sufficient to explain the
 variation in the dataset.
 
 
-9. RANDOM FOREST REGRESSION
+#9. RANDOM FOREST REGRESSION
 ---------------------------
 
 A Random Forest Regressor was used to model nonlinear relationships and
@@ -218,7 +218,7 @@ This indicates that Random Forest was able to capture relationships in the
 data that Linear Regression could not.
 
 
-10. FEATURE IMPORTANCE
+#10. FEATURE IMPORTANCE
 ----------------------
 
 The Random Forest feature importance results were:
@@ -242,7 +242,7 @@ to Store.
 CPI and Unemployment were the next most important variables.
 
 
-11. REMOVING STORE
+#11. REMOVING STORE
 ------------------
 
 Because Store was so dominant, the model was retrained without Store.
@@ -276,7 +276,7 @@ information, but they cannot replace the predictive information provided by
 store identity.
 
 
-12. HOLIDAY_LEADUP FEATURE
+#12. HOLIDAY_LEADUP FEATURE
 --------------------------
 
 A new binary feature called holiday_leadup was created.
@@ -296,7 +296,7 @@ leading up to the holiday.
 The feature was added to the Random Forest model.
 
 
-13. HOLIDAY_LEADUP FEATURE IMPORTANCE
+#13. HOLIDAY_LEADUP FEATURE IMPORTANCE
 -------------------------------------
 
 After adding holiday_leadup, the Random Forest feature importance was:
@@ -324,7 +324,7 @@ predictive information than simply identifying the holiday week.
 However, feature importance should not be interpreted as a causal effect.
 
 
-14. TIME-BASED TRAIN/TEST SPLIT
+#14. TIME-BASED TRAIN/TEST SPLIT
 -------------------------------
 
 Because sales data are temporal, a time-based train/test split was also
@@ -357,7 +357,7 @@ The time-based split is therefore more appropriate if the goal is to predict
 future Walmart sales.
 
 
-15. CHOOSING A TIME SPLIT
+#15. CHOOSING A TIME SPLIT
 -------------------------
 
 The dataset ends on October 26, 2012.
@@ -380,7 +380,7 @@ A future analysis could compare multiple time-based cutoffs to determine
 whether model performance is stable across different periods.
 
 
-16. KEY FINDINGS
+#16. KEY FINDINGS
 ----------------
 
 1. Store is the strongest predictor of Weekly_Sales.
@@ -432,7 +432,7 @@ with approximately 0.957 for the random split.
 Removing Store caused a dramatic decline in predictive performance.
 
 
-17. LIMITATIONS
+#17. LIMITATIONS
 ---------------
 
 The dataset has several limitations.
@@ -463,7 +463,7 @@ data. A time-based evaluation is more appropriate for estimating future
 prediction performance.
 
 
-18. FUTURE IMPROVEMENTS
+#18. FUTURE IMPROVEMENTS
 -----------------------
 
 Several improvements could be made to the analysis.
@@ -518,7 +518,7 @@ Because stores have substantially different sales levels, separate models
 or store-specific features could potentially improve predictions.
 
 
-19. CONCLUSION
+#19. CONCLUSION
 --------------
 
 The analysis demonstrates that Walmart weekly sales are influenced by a
